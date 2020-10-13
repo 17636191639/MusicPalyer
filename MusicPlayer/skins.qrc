@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>skins/images/C-_Users_Administrator_Desktop_音乐2015年11月_音乐播放器PC端JPG_音乐播放器PC端首页2_21.png</file>
+        <file>skins/images/closeNormal.png</file>
+        <file>skins/images/closePressed.png</file>
+        <file>skins/images/currentItemInLoopHover.png</file>
+        <file>skins/images/currentItemInLoopNormal.png</file>
+        <file>skins/images/currentItemInLoopPressed.png</file>
+        <file>skins/images/currentItemOnceHover.png</file>
+        <file>skins/images/currentItemOnceNormal.png</file>
+        <file>skins/images/currentItemOncePressed.png</file>
+        <file>skins/images/listItem.png</file>
+        <file>skins/images/loopHover.png</file>
+        <file>skins/images/loopNormal.png</file>
+        <file>skins/images/loopPressed.png</file>
+        <file>skins/images/maximizeNormal.png</file>
+        <file>skins/images/maximizePressed.png</file>
+        <file>skins/images/minimizeNormal.png</file>
+        <file>skins/images/minimizePressed.png</file>
+        <file>skins/images/next.png</file>
+        <file>skins/images/nextHover.png</file>
+        <file>skins/images/nextPressed.png</file>
+        <file>skins/images/pauseNormal.png</file>
+        <file>skins/images/pausePressed.png</file>
+        <file>skins/images/playStartHover.png</file>
+        <file>skins/images/playStartNormal.png</file>
+        <file>skins/images/playStartPressed.png</file>
+        <file>skins/images/previous.png</file>
+        <file>skins/images/previousHover.png</file>
+        <file>skins/images/previousPressed.png</file>
+        <file>skins/images/randomHover.png</file>
+        <file>skins/images/randomNormal.png</file>
+        <file>skins/images/randomPressed.png</file>
+        <file>skins/images/sequentialHover.png</file>
+        <file>skins/images/sequentialNormal.png</file>
+        <file>skins/images/sequentialPressed.png</file>
+        <file>skins/images/setNormal.png</file>
+        <file>skins/images/setPressed.png</file>
+        <file>skins/images/sliderHandle.png</file>
+        <file>skins/images/搜索框.png</file>
+        <file>skins/images/volumeHandle.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>skins/icons/MusicPlayer.ico</file>
+        <file>skins/icons/skins.css</file>
+        <file>skins/icons/splashIcon.png</file>
+        <file>skins/icons/userIcon.png</file>
+        <file>skins/icons/widgetIcon.png</file>
+        <file>skins/icons/back6.png</file>
+        <file>skins/icons/huxia.png</file>
+        <file>skins/icons/volume.png</file>
+    </qresource>
+</RCC>

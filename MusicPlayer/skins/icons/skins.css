@@ -1,0 +1,200 @@
+QWidget#MusicPlayer{
+    background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+/*顶层界面皮肤配置*/
+QWidget#wgt_topLayer{
+    min-height: 50px;
+    max-height: 50px;
+}
+
+QPushButton#pb_close, #pb_min, #pb_max, #pb_setting{
+    min-width: 17px;
+    max-width: 17px;
+    min-height: 16px;
+    max-height: 16px;
+}
+
+QPushButton#pb_close{
+    border-image: url(:/images/skins/images/closeNormal.png);
+}
+
+QPushButton#pb_close:pressed{
+    border-image: url(:/images/skins/images/closePressed.png);
+}
+
+QPushButton#pb_min{
+    border-image: url(:/images/skins/images/minimizeNormal.png);
+}
+
+QPushButton#pb_min:pressed{
+    border-image: url(:/images/skins/images/minimizePressed.png);
+}
+
+QPushButton#pb_max{
+    border-image: url(:/images/skins/images/maximizeNormal.png);
+}
+
+QPushButton#pb_max:pressed{
+    border-image: url(:/images/skins/images/maximizePressed.png);
+}
+
+QPushButton#pb_setting{
+    border-image: url(:/images/skins/images/setNormal.png);
+}
+
+QPushButton#pb_setting:pressed{
+    border-image: url(:/images/skins/images/setPressed.png);
+}
+
+/*中间层界面皮肤配置*/
+QWidget#wgt_middleLayer{
+    border-image: url(:/icons/skins/icons/back6.png);
+}
+
+QListWidget#lw_songNameList{
+    min-width: 250px;
+    max-width: 250px;
+    color: white;
+    font: 14px "微软雅黑";
+    border: none;
+    background-color: transparent;
+}
+
+QListWidget#lw_songNameList::item{
+    min-height: 35px;
+    max-height: 35px;
+    background-color: transparent;
+}
+
+QListWidget#lw_songNameList::item:hover{
+    color: rgb(248, 217, 129);
+    background-color: transparent;
+}
+
+QListWidget#lw_songNameList::item:selected{
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+QListWidget#lw_lyricShow{
+    color: rgb(248, 217, 129);
+    font: 75 14pt "微软雅黑";
+    border: none;
+    background-color: transparent;
+}
+
+QListWidget#lw_lyricShow::item{
+    min-height: 40px;
+    max-height: 40px;
+    background-color: transparent;
+}
+
+QListWidget#lw_lyricShow::item:selected{
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+/*底层界面皮肤配置*/
+QWidget#wgt_bottomLayer{
+    min-height: 100px;
+    max-height: 100px;
+}
+QLabel#lb_songName{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 30px;
+    max-height: 30px;
+    font: 75 14pt "微软雅黑";
+    color: rgb(255, 255, 255);
+}
+QLabel#lb_position{
+    font: 75 14pt "微软雅黑";
+    color: rgb(255, 255, 255);
+}
+
+QPushButton#pb_play{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-image: url(:/images/skins/images/playStartPressed.png)
+}
+
+QPushButton#pb_prev, #pb_next{
+    min-width: 13px;
+    max-width: 13px;
+    min-height: 21px;
+    max-height: 21px;
+}
+
+QPushButton#pb_prev{
+    border-image: url(:/images/skins/images/previous.png);
+}
+
+QPushButton#pb_prev:pressed{
+    border-image: url(:/images/skins/images/previousPressed.png);
+}
+
+QPushButton#pb_prev:hover{
+    border-image: url(:/images/skins/images/previousHover.png);
+}
+
+QPushButton#pb_next{
+    border-image: url(:/images/skins/images/next.png);
+}
+
+QPushButton#pb_next:pressed{
+    border-image: url(:/images/skins/images/nextPressed.png);
+}
+
+QPushButton#pb_next:hover{
+    border-image: url(:/images/skins/images/nextHover.png);
+}
+
+QLabel#lb_volume{
+    min-width: 18px;
+    max-width: 18px;
+    min-height: 24px;
+    max-height: 24px;
+    border-image: url(:/icons/volume.png);
+}
+
+QLabel#lb_volume::menu-indicator{
+    image:none;
+}
+
+QSlider::sub-page:horizontal{
+    margin: 5px 0px 5px 0px;
+    background-color: #3fd680;
+}
+
+QSlider#hs_volume{
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 13px;
+    max-height: 13px;
+}
+
+QSlider#hs_volume:handle{
+    border-image: url(:/images/skins/images/volumeHandle.png);
+}
+
+QSlider#hs_position{
+    min-height: 13px;
+    max-height: 13px;
+}
+
+QSlider#hs_position:handle{
+    border-image: url(:/images/skins/images/volumeHandle.png);
+}
+
+QPushButton#pb_playMode{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-image: url(:/images/skins/images/loopNormal.png);
+}
